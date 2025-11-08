@@ -19,7 +19,7 @@ It includes:
 
 ---
 
-## Wiring
+## ESP32 Wiring
 
 ### BMP280 – SPI
 | Signal | ESP32 Pin |
@@ -59,16 +59,3 @@ It includes:
 | C0 Sensor | V6 |
 
 ---
-
-## Setup
-
-1. Open the code in **Arduino IDE** or **PlatformIO**.  
-2. Install required libraries:
-   - **Blynk**
-   - **Adafruit BMP280**
-   - **Adafruit SHT4x**
-   - **ESP32 TWAI (CAN)** (included in ESP-IDF or Arduino-ESP32 core)
-3. Configure Wi-Fi:
-   ```cpp
-   char ssid[] = "Your_WiFi_Name";
-   char pass[] = "Your_WiFi_Password";
